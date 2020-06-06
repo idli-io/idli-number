@@ -1,6 +1,6 @@
 {
   "name": "@idli/idli-number",
-  "version": "0.2.2",
+  "version": "0.1.0",
   "description": "Idli Input",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

@@ -3,7 +3,7 @@
 ## Using this component
 
 ### Script tag
-- Put a script tag similar to this `<script src='https://unpkg.com/@idli/idli-number@0.2.2/dist/idli-number.js'></script>` in the head of your index.html
+- Put a script tag similar to this `<script src='https://unpkg.com/@idli/idli-number@0.1.0/dist/idli-number.js'></script>` in the head of your index.html
 - Then you can use the element anywhere in your template, JSX, html etc
 
 ### Node Modules
@@ -23,7 +23,7 @@
 ```
 <custom-element-demo>
   <template>
-    <script src='https://unpkg.com/@idli/idli-number@0.2.2/dist/idli-number.js'></script>
+    <script src='https://unpkg.com/@idli/idli-number@0.1.0/dist/idli-number.js'></script>
     <idli-number label="Name" placeholder="John Snow"></idli-number>
     <idli-number size="lg" inline label="Size Large" value="Rahul"></idli-number>
     <idli-number size="md" label="Disabled" value="Visakhapatnam" disabled></idli-number>
@@ -38,11 +38,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
-  <script src='https://unpkg.com/@idli/idli-number@0.2.2/dist/idli-number.js'></script>
+  <script src='https://unpkg.com/@idli/idli-number@0.1.0/dist/idli-number.js'></script>
 </head>
 <body>
-  <idli-number label="Name" placeholder="John Snow"></idli-number>
-  <idli-number size="lg" inline label="Size Large" value="Rahul"></idli-number>
+  <idli-number label="Account Number" placeholder="Enter Account Number"></idli-number>
+  <idli-number size="lg" inline label="Size Large" value="100"></idli-number>
   <idli-number size="md" label="Disabled" value="Visakhapatnam" disabled></idli-number>
 </body>
 </html>
